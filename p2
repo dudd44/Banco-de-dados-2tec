@@ -1,0 +1,12 @@
+-- inser dados professor
+INSERT INTO professor(id_professor,nome,especialidade,salario,uf) VALUES 
+(1,'João da Silva','Banco de dados', 2500,'PR');
+
+
+-- insert disciplina
+INSERT INTO disciplina(nome,id_professor,carga_horaria) VALUES
+('Banco de dados',1, 60);
+
+-- aluno
+INSERT INTO aluno(nome,sexo,data_nascimento,nota_final,ativo) VALUES
+('Marinho da Silva','M','2007-05-10', 8.5, TRUE);
